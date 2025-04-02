@@ -1,0 +1,23 @@
+.Network-Navigation{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+}.Logo-container{
+    display: flex;
+    gap: 20px;
+}.Network-Navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: large;
+}.Logo{
+    width: 100%;
+    max-width: 20%;
+}
+
+
+
+.main-container{
+    background: rgb(26, 136, 176);
+    height: 100vh;
+}

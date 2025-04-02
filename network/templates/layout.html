@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>
+        {%block title%}
+            Network Monitoring
+        {%endblock%}
+    </title>
+</head>
+<body>
+
+    <nav class="Network-Navigation">
+        <div class="Logo-container">
+            <img class="Logo" src="{%static 'images/NDClogo.png'%}" alt="NDC logo">
+            <h1>National Development Company</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href="{% url 'Netmonitor:dashboard' %}">Dashboard</a></li>
+                <li>Register</li>
+                <li>Login</li>
+            </ul>
+        </div>s
+    </nav>
+
+
+    <main class="main-container">
+        {%block content%}
+
+        {%endblock%}
+    </main>
+
+
+
+
+
+
+    <footer>
+        <h5>Contact</h5>
+    </footer>
+
+</body>
+</html>

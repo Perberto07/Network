@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def dashboard(request):
-    return HttpResponse('This is Dashboard')
+    return render(request, 'Netmonitor/dashboard.html')
