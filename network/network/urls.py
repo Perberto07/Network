@@ -21,5 +21,5 @@ from . import views
 urlpatterns = [
     path('', views.home),
     path('admin/', admin.site.urls),
-    path('network/', include('Netmonitor.urls')),
+    path('network/', include('monitoring.urls')),
 ]

@@ -1,7 +1,7 @@
 .Network-Navigation{
     display: flex;
     justify-content: space-around;
-    background: rgb(255, 255, 255);
+    background-color: rgb(85, 85, 85);
 }.Logo-container{
     display: flex;
     gap: 20px;
@@ -20,4 +20,10 @@
 .main-container{
     background: rgb(26, 136, 176);
     height: 100vh;
+}
+
+
+.Footer-container{
+    background-color: aqua;
+    height: 25vh;
 }
